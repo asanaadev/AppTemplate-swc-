@@ -24,10 +24,10 @@ jobs:
         run: yarn install
 
       - name: 🕵 Lint the code
-        run: yarn lint
+        run: yarn lint && yarn lint:perf
 
       - name: 💅 Run Prettier
-        run: yarn prettier
+        run: yarn prettier:all
 
       - name: 🔬 Run unit tests
         run: yarn test:coverage
