@@ -37,7 +37,7 @@ function GuestNavigation() {
 
 function Footer() {
   return (
-    <footer className='absolute mt-3 py-1 bottom-0 w-full'>
+    <footer className="absolute mt-3 py-1 bottom-0 w-full">
       <h1>Footer</h1>
     </footer>
   );

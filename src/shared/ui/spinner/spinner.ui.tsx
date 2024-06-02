@@ -1,6 +1,4 @@
- 
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { motion, Variants, Transition } from 'framer-motion';
 
 // Define types for the styles

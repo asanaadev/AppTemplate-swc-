@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       {
         element: <GuestLayout />,
-        children: [ homePageRoute],
+        children: [homePageRoute],
       },
       {
         element: <NakedLayout />,
