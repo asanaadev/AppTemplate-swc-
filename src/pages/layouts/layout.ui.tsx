@@ -20,7 +20,7 @@ function GuestNavigation() {
     <nav className="">
       <div className="">
         <NavLink className="" to={pathKeys.home()}>
-          conduit
+          Home
         </NavLink>
 
         <ul className="">
