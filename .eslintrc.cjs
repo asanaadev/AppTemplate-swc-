@@ -85,9 +85,7 @@ module.exports = {
   overrides: [
     {
       files: ['./src/**/*.ts', './src/**/*.tsx'],
-      extends: [
-        'plugin:eslint-plugin-import/typescript',
-      ],
+      extends: ['plugin:eslint-plugin-import/typescript'],
       parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
