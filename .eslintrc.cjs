@@ -9,7 +9,6 @@ module.exports = {
     'plugin:eslint-plugin-import/recommended',
     'plugin:react-hooks/recommended',
     'eslint-config-prettier',
-    'eslint-config-airbnb',
     'prettier',
   ],
   env: {
@@ -88,7 +87,6 @@ module.exports = {
       files: ['./src/**/*.ts', './src/**/*.tsx'],
       extends: [
         'plugin:eslint-plugin-import/typescript',
-        'eslint-config-airbnb-typescript',
       ],
       parserOptions: {
         ecmaVersion: 'latest',
